@@ -41,17 +41,7 @@ def demand():
   else:
     print('Wrong! But do not give up!')
 
-  def easter_egg():
-    return ''' _  , /|
-◥▔╲┈┈┈┈┈┈┈┈┈╱▔◤
-┈╲┈╲╱▔▔▔▔▔╲╱┈╱
-┈┈╲┈┈┈┈┈┈┈┈┈╱
-┈┈▕┈◢◣┈┈┈◢◣┈▏
-┈┈▕┈◥◤┈▃┈◥◤┈▏
-┈┈▕╭╮╰┳━┳╯╭╮▏
-┈┈▕╰╯┈╰━╯┈╰╯▏
-┈┈┈╲▂▂▂▂▂▂▂╱'''
-
+    
 while True:
     choice = input(selection())
     if choice == '3':
