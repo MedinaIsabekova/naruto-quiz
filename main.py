@@ -1,6 +1,7 @@
 from random import randint
 from datetime import datetime
 
+#questions
 Narutoquiz_list = []
 Narutoquiz_list.append(['Who is the first Hokage in Konoha?', 
                         'Naruto', 'Hoshirama', 'Madara', 'Itachi', 2])
@@ -17,12 +18,15 @@ Narutoquiz_list.append(['', 1])
 Narutoquiz_list.append(['', 1])
 points = 0
 
+#des
 def adv():
   return ''' This is Naruto Shipuden QUIZ application created by Medina Isbaek kyzy in ''' + str(datetime.now().year) + ''' @ AlaToo '''
 
+#words which will face on desctop or console
 def selection():
   return '1.This is a quiz\n2.About\n3.NarutoShipuden\n'
 
+#buttons and counting points
 def demand():
   global points
   r = randint(0, len(Narutoquiz_list) - 1)
